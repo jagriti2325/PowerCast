@@ -184,13 +184,57 @@ The professional Power BI dashboard provides real-time insights and comprehensiv
 
 ## Project Structure
 
-\PowerCast/
-├── PowerCast.ipynb                    # Main analysis & modeling notebook
-├── Power_Consumption Prediction.pbix  # Interactive Power BI dashboard
-├── powerconsumption.csv              # Dataset
-├── README.md                         # Project documentation
-└── requirements.txt                  # Python dependencies
-\
+```
+PowerCast/
+│
+├── 📓 PowerCast.ipynb                    # Main Jupyter Notebook
+│   ├── Data Loading & Exploration
+│   ├── Data Preprocessing & Cleaning
+│   ├── Feature Engineering
+│   ├── Model Training (XGBoost, Random Forest, LSTM)
+│   └── Performance Evaluation & Visualization
+│
+├── 📊 Power_Consumption Prediction.pbix  # Power BI Interactive Dashboard
+│   ├── KPI Cards (Model Selection, MAE Metrics)
+│   ├── Power Consumption Prediction Comparison (Time-series)
+│   ├── Model Accuracy Comparison (Bar Chart)
+│   ├── Model Error Distribution (Pie Chart)
+│   ├── Model Error Reduction Analysis (Horizontal Bar)
+│   └── Model Rankings Table (Detailed Metrics)
+│
+├── 📈 powerconsumption.csv              # Raw Dataset
+│   └── Columns: Timestamp, Sub-metering values
+│
+├── 📄 README.md                         # Project Documentation
+│   └── Complete guide and results overview
+│
+├── ⚙️ requirements.txt                   # Python Dependencies
+│   ├── pandas, numpy
+│   ├── matplotlib, seaborn
+│   ├── scikit-learn
+│   └── xgboost
+│
+├── 📁 assets/                           # Media & Documentation
+│   └── dashboard-screenshot.png         # Power BI Dashboard Screenshot
+│
+└── .gitignore                           # Git configuration (optional)
+```
+
+### File Descriptions
+
+<div align="center">
+
+| File | Purpose | Type |
+|------|---------|------|
+| **PowerCast.ipynb** | Complete ML analysis & modeling workflow | Jupyter Notebook |
+| **Power_Consumption Prediction.pbix** | Interactive Power BI dashboard with visualizations | Power BI File |
+| **powerconsumption.csv** | Raw electricity consumption dataset | CSV Dataset |
+| **README.md** | Project documentation & results | Markdown |
+| **requirements.txt** | Python package dependencies | Text File |
+| **assets/** | Supporting media files (screenshots, diagrams) | Directory |
+
+</div>
+
 ---
 
 ## Getting Started
