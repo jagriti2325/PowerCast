@@ -109,6 +109,8 @@ The professional Power BI dashboard provides real-time insights and comprehensiv
 ![Power Consumption Prediction Dashboard](assets/dashboard-screenshot.png)
 
 *The comprehensive Power BI dashboard showcasing all model performance metrics, visualizations, and key insights at a glance.*
+
+
 <img width="663" height="624" alt="Screenshot (224)" src="https://github.com/user-attachments/assets/c90504d9-5a21-42b5-a794-c669289bfd1e" />
 
 
