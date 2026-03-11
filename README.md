@@ -104,6 +104,12 @@ The professional Power BI dashboard provides real-time insights and comprehensiv
 - **Professional formatting** suitable for executive presentations
 - **Export capabilities** for reports and presentations
 
+#### Dashboard Screenshot
+
+![Power Consumption Prediction Dashboard](assets/dashboard-screenshot.png)
+
+*The comprehensive Power BI dashboard showcasing all model performance metrics, visualizations, and key insights at a glance.*
+
 ---
 
 ## Technical Architecture
