@@ -116,23 +116,65 @@ The professional Power BI dashboard provides real-time insights and comprehensiv
 
 ### Models Implemented
 
-#### 1. XGBoost (Recommended)
-- **Algorithm**: Extreme Gradient Boosting (tree ensemble)
-- **Strengths**: High accuracy, handles non-linear relationships, robust to outliers
-- **Performance**: MAE of 241.15 (BEST)
-- **Use Case**: Production deployment, real-time predictions
+#### 1️⃣ XGBoost (Recommended) - Primary Model
 
-#### 2. Random Forest
-- **Algorithm**: Ensemble of decision trees
-- **Strengths**: Stable, interpretable, resistant to overfitting
-- **Performance**: MAE of 247.89 (GOOD - 2.75% higher than XGBoost)
-- **Use Case**: Ensemble voting, baseline comparison
+<div align="center">
 
-#### 3. LSTM (Long Short-Term Memory)
-- **Algorithm**: Recurrent Neural Network
-- **Strengths**: Captures sequential dependencies, handles long-term patterns
-- **Performance**: MAE of 337.69 (FAIR - 28.4% higher than XGBoost)
-- **Use Case**: Educational reference, potential future optimization
+| Aspect | Details |
+|--------|---------|
+| **Algorithm** | Extreme Gradient Boosting (Tree Ensemble) |
+| **Strengths** | • High accuracy<br>• Handles non-linear relationships<br>• Robust to outliers<br>• Fast inference |
+| **Performance** | **MAE: 241.15** ⭐ **BEST** |
+| **Use Case** | Production deployment, real-time predictions |
+
+</div>
+
+---
+
+#### 2️⃣ Random Forest - Alternative Model
+
+<div align="center">
+
+| Aspect | Details |
+|--------|---------|
+| **Algorithm** | Ensemble of Decision Trees |
+| **Strengths** | • Stable predictions<br>• Highly interpretable<br>• Resistant to overfitting<br>• Good generalization |
+| **Performance** | **MAE: 247.89** ⭐⭐⭐⭐ (Only 2.75% higher than XGBoost) |
+| **Use Case** | Ensemble voting, baseline comparison, interpretability |
+
+</div>
+
+---
+
+#### 3️⃣ LSTM (Long Short-Term Memory) - Reference Model
+
+<div align="center">
+
+| Aspect | Details |
+|--------|---------|
+| **Algorithm** | Recurrent Neural Network |
+| **Strengths** | • Captures sequential dependencies<br>• Handles long-term patterns<br>• Learns temporal relationships |
+| **Performance** | **MAE: 337.69** ⭐⭐⭐ (28.4% higher than XGBoost) |
+| **Use Case** | Educational reference, potential future optimization |
+
+</div>
+
+---
+
+### Model Comparison Summary
+
+<div align="center">
+
+| Feature | XGBoost | Random Forest | LSTM |
+|---------|---------|---------------|------|
+| **MAE Score** | 241.15 | 247.89 | 337.69 |
+| **Rank** | 🥇 #1 | 🥈 #2 | 🥉 #3 |
+| **Speed** | ⚡ Fast | ⚡ Fast | 🐢 Slow |
+| **Interpretability** | 📊 Good | 📊 Excellent | 📊 Fair |
+| **Scalability** | ✅ High | ✅ High | ⚠️ Medium |
+| **Production Ready** | ✅ YES | ✅ YES | ❌ NO |
+
+</div>
 
 ---
 
